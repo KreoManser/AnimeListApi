@@ -29,5 +29,8 @@
     "globals": "^15.12.0",
     "rollup": "^4.27.3",
     "rollup-plugin-import-css": "^3.5.6"
+  },
+  "dependencies": {
+    "on-change": "^5.0.1"
   }
 }
