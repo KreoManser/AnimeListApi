@@ -1,0 +1,33 @@
+{
+  "name": "anime-list-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KreoManser/AnimeListApi.git"
+  },
+  "keywords": [
+    "api",
+    "anime"
+  ],
+  "author": "Sergey Babich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KreoManser/AnimeListApi/issues"
+  },
+  "homepage": "https://github.com/KreoManser/AnimeListApi#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "rollup": "^4.27.3",
+    "rollup-plugin-import-css": "^3.5.6"
+  }
+}
